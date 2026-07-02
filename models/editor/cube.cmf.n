@@ -1,0 +1,12 @@
+node.utf8
+object cookModel
+{
+    bool isStatic true
+
+    float scale 1.0
+
+    string name "cube"
+
+    string body         "cube.smd"
+    string materialPath "models"
+}
