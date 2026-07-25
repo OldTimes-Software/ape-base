@@ -15,6 +15,15 @@
 // WATER	Depends on the above, but will fade it based on height.
 /////////////////////////////////////////////////////////////////////////////////////
 
+#if PLG_COMPILE_VERTEX == 1
+	layout (location = 0) in vec3 pl_vposition;
+	layout (location = 1) in vec3 pl_vnormal;
+	layout (location = 2) in vec4 pl_vcolour;
+	layout (location = 3) in vec3 pl_vtangent;
+	layout (location = 4) in vec3 pl_vbitangent;
+	layout (location = 5) in vec2 pl_vuv[4];
+#endif
+
 const float PI = 3.14159265359;
 const float EPSILON = 0.0001;
 
