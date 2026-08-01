@@ -8,7 +8,7 @@ object project
 
     bool visibleInEditor false
 
-    array string mountLocations { "dev" "ship" "test" }
+    array string mountLocations { "dev" "test" }
 
     object editor
     {
