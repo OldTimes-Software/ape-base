@@ -1,0 +1,25 @@
+node.utf8
+object program
+{
+	string description  shader_model_alpha
+	string vertexPath   materials/shaders/glsl/vertex.vert.glsl
+	string fragmentPath materials/shaders/glsl/model.frag.glsl
+
+    object defaultPass
+    {
+        int cullMode 1
+        object shaderParameters
+        {
+            string specularMap      materials/shaders/textures/black.png
+            float uRimIntensity     0.5
+            float uSpecIntensity    4.0
+            float uSpecDiffuse      10.0
+        }
+    }
+
+    object definitions
+    {
+        array string fragment { "LIGHTING" "ALPHATEST" }
+        array string vertex { "LIGHTING" }
+    }
+}
