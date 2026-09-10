@@ -1,0 +1,14 @@
+node.utf8
+object material
+{
+	array object passes
+	{
+        {
+			string shaderProgram sprite
+			object shaderParameters
+			{
+				string diffuseMap materials/editor/editor_ui.png
+			}
+		}
+	}
+}

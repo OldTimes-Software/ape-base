@@ -1,0 +1,17 @@
+node.utf8
+object material
+{
+	uint8 surfaceType 10
+
+	array object passes
+	{
+		{
+            string textureFilterMode nearest
+			string shaderProgram base_lighting
+			object shaderParameters
+			{
+				string diffuseMap materials/world/dev/dev_tile_wood.tga
+			}
+		}
+	}
+}

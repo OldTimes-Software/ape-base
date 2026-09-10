@@ -9,22 +9,27 @@ array object surfaces
         string key "none"
     }
     {
+        ; 1
         string key "rock"
         array string aliases { "rck_" "rch_" }
     }
     {
+        ; 2
         string key "metal"
         array string aliases { "mtl_" "steel_" }
     }
     {
+        ; 3
         string key "flesh"
         array string aliases { "fle_" "flesh_" }
     }
     {
+        ; 4
         string key "water"
         array string aliases { "wtr_" }
     }
     {
+        ; 5
         string key "lava"
         array string aliases { "lva_" }
     }
@@ -51,6 +56,7 @@ array object surfaces
         array string aliases { "wd_" }
     }
     {
+        ; 11
         string key "grass"
         array string aliases { "grs_" }
     }
